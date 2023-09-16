@@ -6,6 +6,8 @@ import { Registration } from "./Registration";
 import TopHeader from "../HomePage/HomeHeaderSection/TopHeader";
 import Header from "../HomePage/HomeHeaderSection/Header";
 import Footer from "../HomePage/FooterSection/Footer";
+import bannerImg1 from "../../assets/banner-img1.png";
+import bannerImg2 from "../../assets/banner-img2.png";
 
 export default function Authentication() {
   const [activeTab, setActiveTab] = useState<string | null>("first");
@@ -21,14 +23,14 @@ export default function Authentication() {
       >
         <figure className="banner-img1 mb-0">
           <img
-            src="../src/assets/banner-img1.png"
+            src={bannerImg1}
             alt=""
             className="star"
           />
         </figure>
         <figure className="banner-img2 mb-0">
           <img
-            src="../src/assets/banner-img2.png"
+            src={bannerImg2}
             alt=""
             className="star"
           />

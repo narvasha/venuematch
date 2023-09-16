@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import videoImg from "../../../assets/video-img.png";
+import videoPlayIcon from "../../../assets/video-play-icon.png"
 export default function VedioSection() {
   return (
     <div className="container">
@@ -8,7 +9,7 @@ export default function VedioSection() {
           <div className="video-section-conten aos-init" data-aos="fade-up">
             <figure className="mb-0 video-section-image">
               <img
-                src="../src/assets/video-img.png"
+                src={videoImg}
                 alt=""
                 className="fluid-img"
               />
@@ -19,7 +20,7 @@ export default function VedioSection() {
             >
               <figure className="mb-0 vide-play-img">
                 <img
-                  src="../src/assets/video-play-icon.png"
+                  src={videoPlayIcon}
                   alt=""
                   className="fluid-img"
                 />

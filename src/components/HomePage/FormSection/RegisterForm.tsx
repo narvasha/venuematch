@@ -1,23 +1,25 @@
 import { faCalendarDays, faEnvelope, faPeopleGroup, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import categoriesLogoImg from "../../../assets/categories-logo-img.png";
+import formSectionimg1 from "../../../assets/form-section-img1.png";
+import categoriesImg1 from "../../../assets/categories-img1.png";
 export default function RegisterForm() {
   return (
     <section className="form-section overflow-hidden">
     <figure className="hearts-img">
-        <img src="../src/assets/categories-img1.png" alt="" className="star"/>
+        <img src={categoriesImg1} alt="" className="star"/>
     </figure>
     <div className="container">
         <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <figure className="form-section-img">
-                    <img src="../src/assets/form-section-img1.png" alt="" className="img-fluid"/>
+                    <img src={formSectionimg1} alt="" className="img-fluid"/>
                 </figure>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="about-section-form position-relative aos-init aos-animate" data-aos="fade-up">
                     <figure className="cate-icon-img">
-                        <img src="../src/assets/categories-logo-img.png" alt=""/>
+                        <img src={categoriesLogoImg} alt=""/>
                     </figure>
                     <h2 className="contact-us-title">Make Reservations</h2>
                     <p>"Discover the perfect venue for your event." </p>

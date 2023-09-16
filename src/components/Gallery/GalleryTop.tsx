@@ -1,12 +1,14 @@
+import bannerImg1 from "../../assets/banner-img1.png";
+import bannerImg2 from "../../assets/banner-img2.png";
 
 export default function GalleryTop() {
   return (
     <div className="home-banner-section overflow-hidden position-relative sub-baner">
         <figure className="banner-img1 mb-0">
-            <img src="../src/assets/banner-img1.png" alt="" className="star"/>
+            <img src={bannerImg1} alt="" className="star"/>
         </figure>
         <figure className="banner-img2 mb-0">
-            <img src="../src/assets/banner-img2.png" alt="" className="star"/>
+            <img src={bannerImg2} alt="" className="star"/>
         </figure>
         <div className="banner-container-box">
             <div className="container">

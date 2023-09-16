@@ -10,8 +10,10 @@ import {
   } from "@mantine/core";
 
 import { AdminSideBar } from "../AdminSideBar";
+import bannerImg1 from "../../../assets/banner-img1.png";
+import bannerImg2 from "../../../assets/banner-img2.png";
+import comingsoon from "../../../assets/comingsoon.gif"
 
-  
   const useStyles = createStyles((theme) => ({
     root: {
       paddingTop: rem(80),
@@ -70,21 +72,21 @@ import { AdminSideBar } from "../AdminSideBar";
         >
           <figure className="banner-img1 mb-0">
             <img
-              src="../src/assets/banner-img1.png"
+              src={bannerImg1}
               alt=""
               className="star"
             />
           </figure>
           <figure className="banner-img2 mb-0">
             <img
-              src="../src/assets/banner-img2.png"
+              src={bannerImg2}
               alt=""
               className="star"
             />
           </figure>
       <Container className={classes.root}>
         <div className={classes.label}>   <img
-                  src="../src/assets/comingsoon.gif"
+                  src={comingsoon}
                   alt=""
                   className="img-fluid diverge-logo okxa"
                 /></div>

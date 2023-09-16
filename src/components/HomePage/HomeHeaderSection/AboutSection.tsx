@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-
+import about3 from "../../../assets/about3.png";
+import about2 from "../../../assets/about2.png";
+import about1 from "../../../assets/about1.png";
+import aboutBirdIcon from "../../../assets/about-bird-icon.png";
 export default function AboutSection() {
   return (
     <div>
@@ -27,19 +30,19 @@ export default function AboutSection() {
               <div className="about-content-img">
                 <figure className="mb-0 about-section-f1">
                   <img
-                    src="../src/assets/about-bird-icon.png"
+                    src={aboutBirdIcon}
                     alt=""
                     className="star"
                   />
                 </figure>
                 <figure className="mb-0 about-section-f2">
-                  <img src="../src/assets/about1.png" alt="" />
+                  <img src={about1} alt="" />
                 </figure>
                 <figure className="mb-0 about-section-f3">
-                  <img src="../src/assets/about2.png" alt="" />
+                  <img src={about2} alt="" />
                 </figure>
                 <figure className="mb-0 about-section-f4">
-                  <img src="../src/assets/about3.png" alt="" />
+                  <img src={about3} alt="" />
                 </figure>
               </div>
             </div>

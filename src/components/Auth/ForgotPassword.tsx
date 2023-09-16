@@ -15,6 +15,8 @@ import { Link } from "react-router-dom";
 import TopHeader from "../HomePage/HomeHeaderSection/TopHeader";
 import Header from "../HomePage/HomeHeaderSection/Header";
 import Footer from "../HomePage/FooterSection/Footer";
+import bannerImg1 from "../../assets/banner-img1.png";
+import bannerImg2 from "../../assets/banner-img2.png";
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -52,14 +54,14 @@ export function ForgotPassword() {
       >
         <figure className="banner-img1 mb-0">
           <img
-            src="../src/assets/banner-img1.png"
+            src={bannerImg1}
             alt=""
             className="star"
           />
         </figure>
         <figure className="banner-img2 mb-0">
           <img
-            src="../src/assets/banner-img2.png"
+            src={bannerImg2}
             alt=""
             className="star"
           />

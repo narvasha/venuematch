@@ -8,6 +8,8 @@ import Header from "../HomePage/HomeHeaderSection/Header";
 import { Link } from "react-router-dom";
 import Spinner from "../Spinner/Spinner";
 import Footer from "../HomePage/FooterSection/Footer";
+import bannerImg1 from "../../assets/banner-img1.png";
+import bannerImg2 from "../../assets/banner-img2.png"
 const fetchVenue = async () => {
   return await FetchQuery(VENUES);
 };
@@ -26,14 +28,14 @@ export default function Venue() {
           >
             <figure className="banner-img1 mb-0">
               <img
-                src="../src/assets/banner-img1.png"
+                src={bannerImg1}
                 alt=""
                 className="star"
               />
             </figure>
             <figure className="banner-img2 mb-0">
               <img
-                src="../src/assets/banner-img2.png"
+                src={bannerImg2}
                 alt=""
                 className="star"
               />

@@ -10,7 +10,7 @@ import {
   createStyles,
   rem,
 } from "@mantine/core";
-
+import download from "../../../assets/download.png";
 interface UsersTableProps {
   data: {
     avatar: string;
@@ -84,7 +84,7 @@ export function Users({ data }: UsersTableProps) {
             {/* <Logo width={rem(120)} /> */}
             {/* <Code sx={{ fontWeight: 700 }}>v3.1.2</Code> */}
             <img
-              src="../src/assets/download.png"
+              src={download}
               alt=""
               className="img-fluid diverge-logo okxa"
             />

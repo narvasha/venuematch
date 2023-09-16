@@ -1,20 +1,23 @@
 import { faClipboardList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
+import ringIconBanner from "../../../assets/ring-icon-banner.png";
+import nepaliImagecouple from "../../../assets/nepaliImagecouple.png";
+import bannerImg2 from "../../../assets/banner-img2.png";
+import bannerImg1 from "../../../assets/banner-img1.png";
 export default function HeroSection() {
   return (
     <div className="home-banner-section overflow-hidden position-relative hero">
       <figure className="banner-img1 mb-0">
         <img
-          src="../src/assets/banner-img1.png"
+          src={bannerImg1}
           alt=""
           className="star"
         />
       </figure>
       <figure className="banner-img2 mb-0">
         <img
-          src="../src/assets/banner-img2.png"
+          src={bannerImg2}
           alt=""
           className="star"
         />
@@ -27,7 +30,7 @@ export default function HeroSection() {
                 <figure className="banner-img mb-0">
                   <img
                     className="img-fluid banner-img-width"
-                    src="../src/assets/nepaliImagecouple.png"
+                    src={nepaliImagecouple}
                     alt=" "
                   />
                 </figure>
@@ -40,7 +43,7 @@ export default function HeroSection() {
                 id="myContentDIV"
               >
                 <figure className="ring-icon-img mb-0">
-                  <img src="../src/assets/ring-icon-banner.png" alt="" />
+                  <img src={ringIconBanner} alt="" />
                 </figure>
                 <h1>
                   VENUE MATCH{" "}

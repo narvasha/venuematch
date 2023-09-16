@@ -6,21 +6,23 @@ import {
 import { faCaretRight, faClipboardList, faEnvelope, faG, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
+import download from "../../../assets/download.png";
+import footerChatImg from "../../../assets/footer-chat-img.png";
+import footerBirdsImg from "../../../assets/footer-birds-img.png";
 export default function Footer() {
   return (
     <div className="footer-section">
       <div className="footer-inner">
         <figure className="mb-0 footer-hearts">
           <img
-            src="../src/assets/footer-birds-img.png"
+            src={footerBirdsImg}
             alt=""
             className="star"
           />
         </figure>
         <div className="footer-msg floating-chat">
           <figure className="mb-0 footer-chat-img">
-            <img src="../src/assets/footer-chat-img.png" alt="" />
+            <img src={footerChatImg} alt="" />
           </figure>
         </div>
         <div className="container">
@@ -52,7 +54,7 @@ export default function Footer() {
                 <Link to="index.html" className="text-decoration-none">
                   <figure className="footer-logo">
                   <img
-                  src="../src/assets/download.png"
+                  src={download}
                   alt=""
                   className="img-fluid diverge-logo okxa"
                   
