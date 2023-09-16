@@ -33,4 +33,4 @@ jobs:
           git checkout docs -- .
           git add .
           git commit -m "Deploy to GitHub Pages"
-          git push https://${{ secrets.GH_TOKEN }}@github.com/your-username/your-repo.git main:docs
+          git push https://${{ secrets.GH_TOKEN }}@github.com/narvasha/venuematch.git main:docs
