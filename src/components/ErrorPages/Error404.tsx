@@ -95,7 +95,7 @@ import bannerImg2 from "../../assets/banner-img2.png";
           address, or the page has been moved to another URL.
         </Text>
         <Group position="center">
-            <Link to = "/">
+            <Link to = "/venuematch">
           <Button variant="subtle" size="md">
             Take me back to home page
           </Button>

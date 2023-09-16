@@ -212,7 +212,7 @@ function App() {
         {/* <MantineProvider> */}
         <Notifications position="top-right" />
         <Routes>
-          <Route path="/">
+          <Route path="/venuematch">
             <Route index element={<Home />} />
             <Route path="success" element={<SuccessSignUp />} />
             <Route path="gallery" element={<Gallery />} />

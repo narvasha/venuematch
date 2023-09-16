@@ -67,7 +67,7 @@ export function Login() {
             });
             // Delay the page reload by 1 second (1000 milliseconds)
             setTimeout(() => {
-              window.location.href = "/admin";
+              window.location.href = "/venuematch/admin";
             }, 1000);
           } else if (data.role === "venue_owner") {
             showNotification({
