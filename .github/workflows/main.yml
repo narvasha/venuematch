@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git checkout main
-          git checkout docs -- .
+          git checkout main -- docs
           git add .
           git commit -m "Deploy to GitHub Pages"
           git push https://${{ secrets.GH_TOKEN }}@github.com/narvasha/venuematch.git main:docs
