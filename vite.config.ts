@@ -7,5 +7,10 @@ export default defineConfig({
   base:"/venuematch/",
   build: {
     outDir: 'docs', // You can change 'docs' to any directory name you prefer
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[ext]'
+      }
+    }
   },
 })

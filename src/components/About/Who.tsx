@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import aboutBirdIcon from "../../assets/about-bird-icon.png";
+import nanu from "../../assets/nanu (1).png"
 export default function Who() {
   return (
     
@@ -19,9 +20,9 @@ export default function Who() {
                     </div>
                     <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 order-lg-2 order-2">
                         <div className="about-content-img">
-                            <figure className="mb-0 about-section-f1"><img src="../src/assets/about-bird-icon.png" alt="" className="star"/>
+                            <figure className="mb-0 about-section-f1"><img src={aboutBirdIcon} alt="" className="star"/>
                             </figure>
-                            <figure className="mb-0 about-banner-img"><img src="../src/assets/nanu (1).png" alt="" className=""/>
+                            <figure className="mb-0 about-banner-img"><img src={nanu} alt="" className=""/>
                             </figure>
                         </div>
                     </div>
