@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export function ScrollToTop() {
-  const [scroll, scrollTo] = useWindowScroll();
+  const [, scrollTo] = useWindowScroll();
 
   return (
     <Group className="scrollToTop">
