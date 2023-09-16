@@ -405,7 +405,7 @@ export default function VenueOwnerSingleVenue() {
                       image={
                         venue.image
                           ? venue.image
-                          : `../src/assets/images/venue-match-logo .png`
+                          : `../src/assets/venue-match-logo .png`
                       }
                       name={venue.name}
                       location={venue.location}

@@ -9,7 +9,7 @@ export default function Event() {
                     <div className="about-us-content aos-init aos-animate" data-aos="fade-up">
                         <div className="cate-icon-outer">
                             <figure className="cate-icon-img mb-0">
-                                <img src="../src/assets/images/event-design-logo.png" alt=""/>
+                                <img src="../src/assets/event-design-logo.png" alt=""/>
                             </figure>
                         </div>
                         <h2>Let’s Plan Your Next Venue With Us
@@ -25,13 +25,13 @@ export default function Event() {
                        <ul className="list-unstyled mb-0">
                         <li>
                             <figure className="mb-0 icons-fig">
-                                <img src="../src/assets/images/event-img1.png" alt=""/>
+                                <img src="../src/assets/event-img1.png" alt=""/>
                             </figure>
                             <h6>Entertaintment</h6>
                         </li>
                         <li>
                             <figure className="mb-0 icons-fig">
-                                <img src="../src/assets/images/event-img2.png" alt=""/>
+                                <img src="../src/assets/event-img2.png" alt=""/>
                             </figure>
                             <h6>Dining</h6>
                         </li>
@@ -39,13 +39,13 @@ export default function Event() {
                     <ul className="list-unstyled second mb-0">
                         <li>
                             <figure className="mb-0 icons-fig">
-                                <img src="../src/assets/images/event-img3.png" alt=""/>
+                                <img src="../src/assets/event-img3.png" alt=""/>
                             </figure>
                             <h6>Decor</h6>
                         </li>
                         <li>
                             <figure className="mb-0 icons-fig">
-                                <img src="../src/assets/images/event-img4.png" alt=""/>
+                                <img src="../src/assets/event-img4.png" alt=""/>
                             </figure>
                             <h6>Swag &amp; Gifting</h6>
                         </li>

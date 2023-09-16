@@ -15,7 +15,7 @@ import {
   Image,
 } from "@mantine/core";
 import { Link, useParams } from "react-router-dom";
-import khaltilogo from "../../../../../assets/images/khaltilogo.png";
+import khaltilogo from "../../../../../assets/khaltilogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendarDays,

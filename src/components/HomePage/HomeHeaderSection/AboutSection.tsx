@@ -27,19 +27,19 @@ export default function AboutSection() {
               <div className="about-content-img">
                 <figure className="mb-0 about-section-f1">
                   <img
-                    src="../src/assets/images/about-bird-icon.png"
+                    src="../src/assets/about-bird-icon.png"
                     alt=""
                     className="star"
                   />
                 </figure>
                 <figure className="mb-0 about-section-f2">
-                  <img src="../src/assets/images/about1.png" alt="" />
+                  <img src="../src/assets/about1.png" alt="" />
                 </figure>
                 <figure className="mb-0 about-section-f3">
-                  <img src="../src/assets/images/about2.png" alt="" />
+                  <img src="../src/assets/about2.png" alt="" />
                 </figure>
                 <figure className="mb-0 about-section-f4">
-                  <img src="../src/assets/images/about3.png" alt="" />
+                  <img src="../src/assets/about3.png" alt="" />
                 </figure>
               </div>
             </div>

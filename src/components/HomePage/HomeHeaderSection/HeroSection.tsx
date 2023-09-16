@@ -7,14 +7,14 @@ export default function HeroSection() {
     <div className="home-banner-section overflow-hidden position-relative hero">
       <figure className="banner-img1 mb-0">
         <img
-          src="../src/assets/images/banner-img1.png"
+          src="../src/assets/banner-img1.png"
           alt=""
           className="star"
         />
       </figure>
       <figure className="banner-img2 mb-0">
         <img
-          src="../src/assets/images/banner-img2.png"
+          src="../src/assets/banner-img2.png"
           alt=""
           className="star"
         />
@@ -27,7 +27,7 @@ export default function HeroSection() {
                 <figure className="banner-img mb-0">
                   <img
                     className="img-fluid banner-img-width"
-                    src="../src/assets/images/nepaliImagecouple.png"
+                    src="../src/assets/nepaliImagecouple.png"
                     alt=" "
                   />
                 </figure>
@@ -40,7 +40,7 @@ export default function HeroSection() {
                 id="myContentDIV"
               >
                 <figure className="ring-icon-img mb-0">
-                  <img src="../src/assets/images/ring-icon-banner.png" alt="" />
+                  <img src="../src/assets/ring-icon-banner.png" alt="" />
                 </figure>
                 <h1>
                   VENUE MATCH{" "}

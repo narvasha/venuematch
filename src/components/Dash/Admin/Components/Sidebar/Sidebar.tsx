@@ -7,7 +7,7 @@ import {
   ScrollArea,
   Badge,
 } from "@mantine/core";
-import download from "../../../../../assets/images/download.png";
+import download from "../../../../../assets/download.png";
 import {
   IconArrowsExchange2,
   IconBell,

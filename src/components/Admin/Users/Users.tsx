@@ -84,7 +84,7 @@ export function Users({ data }: UsersTableProps) {
             {/* <Logo width={rem(120)} /> */}
             {/* <Code sx={{ fontWeight: 700 }}>v3.1.2</Code> */}
             <img
-              src="../src/assets/images/download.png"
+              src="../src/assets/download.png"
               alt=""
               className="img-fluid diverge-logo okxa"
             />

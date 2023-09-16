@@ -131,7 +131,7 @@ export function AdminSideBar() {
           {/* <Logo width={rem(120)} /> */}
           {/* <Code sx={{ fontWeight: 700 }}>v3.1.2</Code> */}
       <UserButton
-        image="../src/assets/images/muskhan.jpg"
+        image="../src/assets/muskhan.jpg"
         name="Muskhan Adikhari"
         email="narvash@gmail.com"
       />

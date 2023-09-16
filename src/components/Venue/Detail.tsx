@@ -5,8 +5,8 @@ import { FetchQuery } from "../utils/ApiCall";
 import { useQuery } from "@tanstack/react-query";
 import Spinner from "../Spinner/Spinner";
 import { useParams } from "react-router-dom";
-import banner1 from "../../assets/images/banner-img1.png";
-import banner2 from "../../assets/images/banner-img2.png";
+import banner1 from "../../assets/banner-img1.png";
+import banner2 from "../../assets/banner-img2.png";
 import {
   createStyles,
   Container,
@@ -240,7 +240,7 @@ export default function Detail() {
                       image={
                         venue.image
                           ? venue.image
-                          : `../src/assets/images/venue-match-logo .png`
+                          : `../src/assets/venue-match-logo .png`
                       }
                       name={venue.name}
                       location={venue.location}

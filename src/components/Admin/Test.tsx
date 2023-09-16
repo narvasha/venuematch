@@ -166,7 +166,7 @@ export default function Test() {
               <Menu shadow="md" width={200}>
                 <Menu.Target>
                   <UserButton
-                    image="../src/assets/images/muskhan.jpg"
+                    image="../src/assets/muskhan.jpg"
                     name="Muskhan Adikhari"
                     email="narvash@gmail.com"
                   />

@@ -12,7 +12,7 @@ import {
   rem,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import logo from "../../../assets/images/download.png"
+import logo from "../../../assets/download.png"
 
 const useStyles = createStyles((theme) => ({
   dropdownFooter: {

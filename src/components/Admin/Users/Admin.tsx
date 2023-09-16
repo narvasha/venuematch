@@ -8,14 +8,14 @@ export default function Admin() {
         <Grid>
       <Grid.Col span="content"><AdminSideBar /></Grid.Col>
       <Grid.Col span={9} > <Users data={[{
-        avatar: "../src/assets/images/muskhan.jpg",
+        avatar: "../src/assets/muskhan.jpg",
         name: "Muskhan Adikari",
         job: "Engineer",
         email: "narvasha@gmail.com",
         role: "ADMIN"
       },
       {
-        avatar: "../src/assets/images/samjhana.jpg",
+        avatar: "../src/assets/samjhana.jpg",
         name: "Samjhana Poudel",
         job: "Engineer",
         email: "samjhana20@gmail.com",

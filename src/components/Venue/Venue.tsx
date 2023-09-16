@@ -26,14 +26,14 @@ export default function Venue() {
           >
             <figure className="banner-img1 mb-0">
               <img
-                src="../src/assets/images/banner-img1.png"
+                src="../src/assets/banner-img1.png"
                 alt=""
                 className="star"
               />
             </figure>
             <figure className="banner-img2 mb-0">
               <img
-                src="../src/assets/images/banner-img2.png"
+                src="../src/assets/banner-img2.png"
                 alt=""
                 className="star"
               />
@@ -58,7 +58,7 @@ export default function Venue() {
                   <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/wedding.png"}
+                    src={"../src/assets/wedding.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"15px",marginBottom:0}}>Wedding</p>
@@ -67,7 +67,7 @@ export default function Venue() {
                   <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/birthday.png"}
+                    src={"../src/assets/birthday.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"15px",marginBottom:0}}>Birthday</p>
@@ -76,7 +76,7 @@ export default function Venue() {
                 <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/wedding-ring.png"}
+                    src={"../src/assets/wedding-ring.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"5px",marginBottom:0}}>Engagement</p>
@@ -85,7 +85,7 @@ export default function Venue() {
                 <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/meeting.png"}
+                    src={"../src/assets/meeting.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"15px",marginBottom:0}}>Formal</p>
@@ -94,7 +94,7 @@ export default function Venue() {
                 <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/concert.png"}
+                    src={"../src/assets/concert.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"5px",marginBottom:0}}>Concert</p>
@@ -103,7 +103,7 @@ export default function Venue() {
                 <Link to="#">
                 <div className="categoryCard">
                   <Image
-                    src={"../src/assets/images/festival.png"}
+                    src={"../src/assets/festival.png"}
                     style={{ width: "40%" }}
                   />
                   <p style={{paddingTop:"5px",marginBottom:0}}>Festival</p>
@@ -140,7 +140,7 @@ export default function Venue() {
                   data?.data.venues.map((venue: any) => (
                     <div key={venue.id}>
                       <VenueCard
-                        image={venue.image?venue.image:`../src/assets/images/venue-match-logo .png`}
+                        image={venue.image?venue.image:`../src/assets/venue-match-logo .png`}
                         name={venue.name}
                         location={venue.location}
                         price={venue.price}

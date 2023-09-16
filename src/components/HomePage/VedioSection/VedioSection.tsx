@@ -8,7 +8,7 @@ export default function VedioSection() {
           <div className="video-section-conten aos-init" data-aos="fade-up">
             <figure className="mb-0 video-section-image">
               <img
-                src="../src/assets/images/video-img.png"
+                src="../src/assets/video-img.png"
                 alt=""
                 className="fluid-img"
               />
@@ -19,7 +19,7 @@ export default function VedioSection() {
             >
               <figure className="mb-0 vide-play-img">
                 <img
-                  src="../src/assets/images/video-play-icon.png"
+                  src="../src/assets/video-play-icon.png"
                   alt=""
                   className="fluid-img"
                 />

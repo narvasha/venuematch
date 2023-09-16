@@ -13,14 +13,14 @@ export default function Footer() {
       <div className="footer-inner">
         <figure className="mb-0 footer-hearts">
           <img
-            src="../src/assets/images/footer-birds-img.png"
+            src="../src/assets/footer-birds-img.png"
             alt=""
             className="star"
           />
         </figure>
         <div className="footer-msg floating-chat">
           <figure className="mb-0 footer-chat-img">
-            <img src="../src/assets/images/footer-chat-img.png" alt="" />
+            <img src="../src/assets/footer-chat-img.png" alt="" />
           </figure>
         </div>
         <div className="container">
@@ -52,7 +52,7 @@ export default function Footer() {
                 <Link to="index.html" className="text-decoration-none">
                   <figure className="footer-logo">
                   <img
-                  src="../src/assets/images/download.png"
+                  src="../src/assets/download.png"
                   alt=""
                   className="img-fluid diverge-logo okxa"
                   

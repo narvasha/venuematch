@@ -1,4 +1,4 @@
-import spinner from "../../assets/images/spinner.png"
+import spinner from "../../assets/spinner.png"
 
 interface SpinnerProps{
     width:string

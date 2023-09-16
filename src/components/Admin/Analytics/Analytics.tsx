@@ -70,21 +70,21 @@ import { AdminSideBar } from "../AdminSideBar";
           >
             <figure className="banner-img1 mb-0">
               <img
-                src="../src/assets/images/banner-img1.png"
+                src="../src/assets/banner-img1.png"
                 alt=""
                 className="star"
               />
             </figure>
             <figure className="banner-img2 mb-0">
               <img
-                src="../src/assets/images/banner-img2.png"
+                src="../src/assets/banner-img2.png"
                 alt=""
                 className="star"
               />
             </figure>
         <Container className={classes.root}>
           <div className={classes.label}>   <img
-                    src="../src/assets/images/comingsoon.gif"
+                    src="../src/assets/comingsoon.gif"
                     alt=""
                     className="img-fluid diverge-logo okxa"
                   /></div>

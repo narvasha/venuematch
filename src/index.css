@@ -237,7 +237,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: url(../src/assets/images/banner-background.png);
+  background: url(../src/assets/banner-background.png);
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@ a {
   padding-left: 0px;
 }
 .home-header-section::after {
-  background: url(../src/assets/images/banner-right-img.png);
+  background: url(../src/assets/banner-right-img.png);
   content: "";
   width: 555px;
   height: 890px;
@@ -275,7 +275,7 @@ a {
   z-index: -1;
 }
 .sub-header-section::after {
-  background: url(../src/assets/images/banner-right-img.png);
+  background: url(../src/assets/banner-right-img.png);
   content: "";
   width: 555px;
   height: 655px;
@@ -719,7 +719,7 @@ a {
   margin-bottom: 26px;
 }
 /* .sub-baner::after {
-  background: url(../src/assets/images/banner-right-img.png);
+  background: url(../src/assets/banner-right-img.png);
   content: "";
   width: 555px;
   height: 890px;
@@ -728,7 +728,7 @@ a {
   bottom: 944px;
 } */
 /* .sub-header-section::after {
-  background: url(../src/assets/images/banner-right-img.png);
+  background: url(../src/assets/banner-right-img.png);
   content: "";
   width: 555px;
   height: 890px;
@@ -776,7 +776,7 @@ a {
   top: -128px;
 }
 .about-page-about-section .about-us-content:before {
-  background: url(../src/assets/images/about-page-lines.png);
+  background: url(../src/assets/about-page-lines.png);
   content: "";
   width: 555px;
   height: 940px;
@@ -906,7 +906,7 @@ a {
   margin-bottom: 72px;
 }
 .video-section-about {
-  background: url(../src/assets/images/video-section-background.png);
+  background: url(../src/assets/video-section-background.png);
   padding: 113px 0 148px;
   background-repeat: no-repeat;
   background-position: center;
@@ -928,7 +928,7 @@ a {
 }
 /* video-section */
 .video-section {
-  background: url(../src/assets/images/video-section-background.png);
+  background: url(../src/assets/video-section-background.png);
 
   padding: 154px 0 160px;
   background-repeat: no-repeat;
@@ -1040,7 +1040,7 @@ a {
   transition: ease-in-out 0.3s;
 }
 .categories-section .about-us-content:before {
-  background: url(../src/assets/images/category-lines-img.png);
+  background: url(../src/assets/category-lines-img.png);
   content: "";
   width: 555px;
   height: 940px;
@@ -1091,7 +1091,7 @@ a {
 /* reservation-section */
 .reservation-section {
   padding: 160px 0;
-  background: url(../src/assets/images/reservation-background.jpg);
+  background: url(../src/assets/reservation-background.jpg);
   position: relative;
 }
 .reservation-section .reservation-logo {
@@ -1147,7 +1147,7 @@ a {
   margin-bottom: 81px !important;
 }
 .reservation-section:before {
-  background: url(../src/assets/images/reservation-before-img.png);
+  background: url(../src/assets/reservation-before-img.png);
   content: "";
   width: 391px;
   height: 624px;
@@ -1158,7 +1158,7 @@ a {
 }
 /* event-section */
 .event-section {
-  background: url(../src/assets/images/event-background.jpg);
+  background: url(../src/assets/event-background.jpg);
   padding: 162px 0 158px;
   background-repeat: no-repeat;
 }
@@ -1291,7 +1291,7 @@ a {
   right: 270px;
 }
 .event-org-section::after {
-  background: url(../src/assets/images/event-org-logo.png);
+  background: url(../src/assets/event-org-logo.png);
   content: "";
   width: 391px;
   height: 624px;
@@ -1442,7 +1442,7 @@ a {
   box-shadow: 0 0px 10px 4px rgb(0 0 0 / 10%);
 }
 .event-org-section .about-us-content:before {
-  background: url(../src/assets/images/category-lines-img.png);
+  background: url(../src/assets/category-lines-img.png);
   content: "";
   width: 555px;
   height: 940px;
@@ -1466,7 +1466,7 @@ a {
   position: relative;
 }
 .event-org-about:before {
-  background: url(../src/assets/images/reservation-before-img.png);
+  background: url(../src/assets/reservation-before-img.png);
   content: "";
   width: 391px;
   height: 624px;
@@ -1492,7 +1492,7 @@ a {
   text-transform: capitalize;
 }
 .event-org-about::after {
-  background: url(../src/assets/images/event-org-logo.png);
+  background: url(../src/assets/event-org-logo.png);
   content: "";
   width: 391px;
   height: 624px;
@@ -1503,7 +1503,7 @@ a {
 }
 /* story-section */
 .story-section {
-  background: url(../src/assets/images/story-background.png);
+  background: url(../src/assets/story-background.png);
   padding: 159px 0 263px;
   background-repeat: no-repeat;
 }
@@ -1693,7 +1693,7 @@ a {
   text-align: center;
 }
 .form-section .about-section-form:before {
-  background: url(../src/assets/images/category-lines-img.png);
+  background: url(../src/assets/category-lines-img.png);
   content: "";
   width: 555px;
   height: 940px;
@@ -1741,7 +1741,7 @@ a {
   width: 100%;
 }
 .form-section .select-icon::after {
-  background: url(../src/assets/images/event-org-logo.png);
+  background: url(../src/assets/event-org-logo.png);
   content: "";
   font-size: 19px;
   color: var(--e-global-color-text);
@@ -1789,7 +1789,7 @@ a {
   -webkit-appearance: none;
   background-repeat: no-repeat !important;
   background-position: 88.5% 25px !important;
-  background-image: url(../src/assets/images/dropdown-arrow.png);
+  background-image: url(../src/assets/dropdown-arrow.png);
 }
 .form-section .icons-form {
   position: absolute;
@@ -1929,7 +1929,7 @@ a {
 }
 /* footer-section */
 .footer-section {
-  /* background: url(../src/assets/images/footer-background-img.jpg); */
+  /* background: url(../src/assets/footer-background-img.jpg); */
   padding: 12px 0 31px;
   overflow: hidden;
   position: relative;
@@ -2125,7 +2125,7 @@ a {
   margin-top: -65px;
 }
 .footer-section::after {
-  background: url(../src/assets/images/footer-design-img.png);
+  background: url(../src/assets/footer-design-img.png);
   content: "";
   width: 370px;
   height: 231px;
@@ -2382,7 +2382,7 @@ a {
   top: -385px;
 }
 .about-us-section::after {
-  background: url(../src/assets/images/about-right-backround.png);
+  background: url(../src/assets/about-right-backround.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -2478,7 +2478,7 @@ a {
   position: relative;
 }
 .our-teams-section:before {
-  background: url(../src/assets/images//who-we-before.png);
+  background: url(../src/assets//who-we-before.png);
   content: "";
   width: 445px;
   height: 406px;
@@ -2676,7 +2676,7 @@ a {
   position: relative;
 }
 .carousel-section:before {
-  background: url(../src/assets/images/carousel-before-img.png);
+  background: url(../src/assets/carousel-before-img.png);
   content: "";
   width: 305px;
   height: 227px;
@@ -2685,7 +2685,7 @@ a {
   left: 90px;
 }
 .carousel-section::after {
-  background: url(../src/assets/images/carousel-after-img.png);
+  background: url(../src/assets/carousel-after-img.png);
   content: "";
   width: 305px;
   height: 227px;
@@ -3003,7 +3003,7 @@ a {
   margin: 0 12px;
 }
 .home-header-section .sub-banner-section .sub-banner-outer:before {
-  background: url(../src/assets/images/about-page-img.png);
+  background: url(../src/assets/about-page-img.png);
   content: "";
   width: 534px;
   height: 204px;
@@ -3095,7 +3095,7 @@ a {
   display: none;
 }
 .about-us-page-section::after {
-  background: url(../src/assets/images/about-right-backround.png);
+  background: url(../src/assets/about-right-backround.png);
   content: "";
   width: 445px;
   height: 405px;
@@ -3108,7 +3108,7 @@ a {
   margin-bottom: 30px;
 }
 .about-us-page-section::before {
-  background: url(../src/assets/images//about-page-img4.png);
+  background: url(../src/assets//about-page-img4.png);
   content: "";
   width: 659px;
   height: 578px;
@@ -3460,7 +3460,7 @@ a {
   padding: 0 310px;
 }
 .event-org-section-page .about-us-content:before {
-  background: url(../src/assets/images/category-lines-img.png);
+  background: url(../src/assets/category-lines-img.png);
   content: "";
   width: 555px;
   height: 1304px;
@@ -3473,7 +3473,7 @@ a {
   padding-top: 262px;
 }
 .event-org-section-page::after {
-  background: url(../src/assets/images/org-design-img.png);
+  background: url(../src/assets/org-design-img.png);
   content: "";
   width: 391px;
   height: 624px;
@@ -3502,7 +3502,7 @@ a {
 /* event-section-services */
 .event-section-services {
   padding: 162px 0 158px;
-  background: url(../src/assets/images/evwnt-background-img-services.png);
+  background: url(../src/assets/evwnt-background-img-services.png);
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: center;
@@ -3565,7 +3565,7 @@ a {
   text-align: center;
 }
 .pricing-plan-section {
-  background: url(../src/assets/images/video-section-background.png);
+  background: url(../src/assets/video-section-background.png);
   padding: 167px 0 148px;
   background-repeat: no-repeat;
   background-position: center;
@@ -3613,7 +3613,7 @@ a {
   position: relative;
 }
 .story-section-pricing #carouselExampleIndicators:before {
-  background: url(../src/assets/images/category-lines-img.png);
+  background: url(../src/assets/category-lines-img.png);
   content: "";
   width: 555px;
   height: 1002px;
@@ -3836,7 +3836,7 @@ a {
   overflow: hidden;
 }
 /* .container-comming-soon:before {
-  background: url(../src/assets/images/comming-soon-img2.png);
+  background: url(../src/assets/comming-soon-img2.png);
   content: "";
   width: 960px;
   height: 1010px;
@@ -3971,7 +3971,7 @@ a {
 }
 .container-comming-soon::after {
   /* content: "";
-  background-image: url(../src/assets/images/play_any_game_leftbackground.jpg);
+  background-image: url(../src/assets/play_any_game_leftbackground.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -3982,7 +3982,7 @@ a {
   width: 50%;
   position: absolute; */
 
-  background: url(../src/assets/images/comming-soon-img2.png);
+  background: url(../src/assets/comming-soon-img2.png);
   content: "";
   width: 960px;
   height: 1080px;
@@ -17153,7 +17153,7 @@ a.text-dark:hover {
     padding-left: 0px;
   }
   .about-us-page-section::before {
-    background: url(../src/assets/images//about-page-img4.png);
+    background: url(../src/assets//about-page-img4.png);
     content: "";
     width: 659px;
     height: 578px;

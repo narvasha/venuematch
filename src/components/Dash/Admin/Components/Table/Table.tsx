@@ -9,7 +9,7 @@ import Paper from "@mui/material/Paper";
 import { FetchQuery } from "../../../../utils/ApiCall";
 import { GET_BOOKING } from "../../../../utils/ApiRoutes";
 import { useQuery } from "@tanstack/react-query";
-import khaltilogo from "../../../../../assets/images/khaltilogo.png";
+import khaltilogo from "../../../../../assets/khaltilogo.png";
 
 const fetchBookings = async () => {
   return await FetchQuery(GET_BOOKING);

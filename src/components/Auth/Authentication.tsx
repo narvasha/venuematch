@@ -21,14 +21,14 @@ export default function Authentication() {
       >
         <figure className="banner-img1 mb-0">
           <img
-            src="../src/assets/images/banner-img1.png"
+            src="../src/assets/banner-img1.png"
             alt=""
             className="star"
           />
         </figure>
         <figure className="banner-img2 mb-0">
           <img
-            src="../src/assets/images/banner-img2.png"
+            src="../src/assets/banner-img2.png"
             alt=""
             className="star"
           />

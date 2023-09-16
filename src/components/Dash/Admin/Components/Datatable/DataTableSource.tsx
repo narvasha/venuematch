@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import khaltilogo from "../../../../../assets/images/khaltilogo.png";
+import khaltilogo from "../../../../../assets/khaltilogo.png";
 import {
   faCarrot,
   faDrumstickBite,

@@ -19,9 +19,9 @@ export default function Who() {
                     </div>
                     <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 order-lg-2 order-2">
                         <div className="about-content-img">
-                            <figure className="mb-0 about-section-f1"><img src="../src/assets/images/about-bird-icon.png" alt="" className="star"/>
+                            <figure className="mb-0 about-section-f1"><img src="../src/assets/about-bird-icon.png" alt="" className="star"/>
                             </figure>
-                            <figure className="mb-0 about-banner-img"><img src="../src/assets/images/nanu (1).png" alt="" className=""/>
+                            <figure className="mb-0 about-banner-img"><img src="../src/assets/nanu (1).png" alt="" className=""/>
                             </figure>
                         </div>
                     </div>

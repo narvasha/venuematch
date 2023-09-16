@@ -4,10 +4,10 @@ export default function Category() {
   return (
     <section className="categories-section overflow-hidden position-relative">
         <figure className="hearts-img">
-            <img src="../src/assets/images/categories-img1.png" alt="" className="star"/>
+            <img src="../src/assets/categories-img1.png" alt="" className="star"/>
         </figure>
         <figure className="design-img">
-            <img src="../src/assets/images/categories-img6.png" alt="" className="star"/>
+            <img src="../src/assets/categories-img6.png" alt="" className="star"/>
         </figure>
         <div className="container">
             <div className="row" style={{marginLeft:"-25px"}}>
@@ -15,7 +15,7 @@ export default function Category() {
                     <div className="about-us-content aos-init aos-animate" data-aos="fade-up">
                         <div className="cate-icon-outer">
                             <figure className="cate-icon-img mb-0">
-                                <img src="../src/assets/images/categories-logo-img.png" alt=""/>
+                                <img src="../src/assets/categories-logo-img.png" alt=""/>
                             </figure>
                         </div>
                         <h2>Includes Various Categories
@@ -32,11 +32,11 @@ export default function Category() {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="card card1">
-                                    <figure className="mb-0 category-section-f2"><img src="../src/assets/images/wedding.png" alt=""/></figure>
+                                    <figure className="mb-0 category-section-f2"><img src="../src/assets/wedding.png" alt=""/></figure>
                                     <h6>Wedding</h6>
                                 </div>
                                 <div className="card card2">
-                                    <figure className="mb-0 category-section-f3"><img src="../src/assets/images/birthday.png" alt=""/></figure>
+                                    <figure className="mb-0 category-section-f3"><img src="../src/assets/birthday.png" alt=""/></figure>
                                     <h6>Birthday</h6>
                                 </div>
                             </div>
@@ -45,11 +45,11 @@ export default function Category() {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <div className="card card3">
-                                    <figure className="mb-0 category-section-f4"><img src="../src/assets/images/meeting.png" alt=""/></figure>
+                                    <figure className="mb-0 category-section-f4"><img src="../src/assets/meeting.png" alt=""/></figure>
                                     <h6>Meeting</h6>
                                 </div>
                                 <div className="card card4">
-                                    <figure className="mb-0 category-section-f5"><img src="../src/assets/images/engagement.png" alt=""/></figure>
+                                    <figure className="mb-0 category-section-f5"><img src="../src/assets/engagement.png" alt=""/></figure>
                                     <h6>Engagemnet</h6>
                                 </div>
                             </div>
