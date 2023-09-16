@@ -10,25 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 18
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: yarn install
 
-      - name: Build
-        run: yarn build
-
-      - name: Deploy to GitHub Pages
+      - name: Configure Git
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          yarn deploy
-        env:
-          NODE_ENV: production
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --global credential.helper store
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git checkout main
+          git checkout docs -- .
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push https://${{ secrets.GH_TOKEN }}@github.com/your-username/your-repo.git main:docs
